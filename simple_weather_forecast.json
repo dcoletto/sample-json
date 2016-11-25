@@ -1,0 +1,51 @@
+{
+    "data": [{
+        "id": "1",
+        "location": "New York",
+        "three_day_forecast": [{
+            "conditions": "Partly cloudy",
+            "day": "Monday",
+            "temperature": 20
+        }, {
+            "conditions": "Showers",
+            "day": "Tuesday",
+            "temperature": 22
+        }, {
+            "conditions": "Sunny",
+            "day": "Wednesday",
+            "temperature": 28
+        }]
+    }, {
+        "id": "2",
+        "location": "Paris",
+        "three_day_forecast": [{
+            "conditions": "Sunny",
+            "day": "Monday",
+            "temperature": 4
+        }, {
+            "conditions": "Cloduy",
+            "day": "Tuesday",
+            "temperature": 2
+        }, {
+            "conditions": "Snow",
+            "day": "Wednesday",
+            "temperature": 0
+        }]
+    }, {
+        "id": "3",
+        "location": "London",
+        "three_day_forecast": [{
+            "conditions": "Showers",
+            "day": "Monday",
+            "temperature": 18
+        }, {
+            "conditions": "Sunny",
+            "day": "Tuesday",
+            "temperature": 20
+        }, {
+            "conditions": "Cloduy",
+            "day": "Wednesday",
+            "temperature": 19
+        }]
+    }]
+}
