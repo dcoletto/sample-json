@@ -1,0 +1,218 @@
+{
+	"user": {
+		"name": "John",
+		"surname": "Snow",
+		"email": "example@example.com",
+		"password": "example_password",
+		"birth_place": "Padova",
+		"ssn": "SNWJHN16A01G224L",
+		"address1": "Via Croce Rossa, 36",
+		"address2": "int 5/A",
+		"city": "Padova",
+		"province": "PD",
+		"zip": "35129",
+		"state": "Italy",
+		"country": "",
+		"phone": "+393920335752",
+		"profession": "Impiegato",
+		"gender": "M",
+		"birth_date": 20160101,
+		"height": 180,
+		"clinicalhistory": {
+			"physique": "robusta",
+			"defecation": "regolare",
+			"physical_activity": true,
+			"smoke": false,
+			"birth_control": false,
+			"date_last_pregnancy": null,
+			"breastfeeding_in_progress": false,
+			"date_last_diet": null,
+			"habitual_prescriptions": true,
+			"habitual_prescriptions_list": [
+				"tachipirina",
+				"coumadin"
+			],
+			"notes": null
+		},
+		"diseases": {
+			"diabet": {
+				"diabetType_2": false,
+				"diabetType_1": false
+			},
+			"respiratorysystem": {
+				"asthma": false,
+				"emphysema": false,
+				"bronchitis": false,
+				"cystic_fibrosis": false,
+				"other": null
+			},
+			"cardiocirculatorysystem": {
+				"angina": false,
+				"infarct": false,
+				"thrombophlebitis": false,
+				"arrhythmias": false,
+				"hypertension": false,
+				"valvulopathy": false,
+				"stroke": false,
+				"cardiomyopathy": false,
+				"varicose_vein": false,
+				"other": null
+			},
+			"endocrinesystem": {
+				"diabetes": false,
+				"dyslipidemia": false,
+				"gout": false,
+				"thyroid": false,
+				"other": null
+			},
+			"gastrointestinaltract": {
+				"celiac_disease": false,
+				"diverticulosis": false,
+				"esophagitis": false,
+				"crohn": false,
+				"hepatitis": false,
+				"gastritis": false,
+				"colitis": false,
+				"hiatal_hernia": false,
+				"pancreatitis": false,
+				"other": null
+			},
+			"allergies": {
+				"nickel": false,
+				"aspartame": false,
+				"cocoa": false,
+				"nuts_shell": false,
+				"gluten": false,
+				"lactose_milk": false,
+				"yeast": false,
+				"peas": false,
+				"soy": false,
+				"eggs": false,
+				"melon": false,
+				"tomato": false,
+				"betulaceae": false,
+				"compositae": false,
+				"cupressaceae": false,
+				"graminaceae": false,
+				"other": null
+			},
+			"activatorsallergies": {
+				"papaya": false,
+				"pineapple": false,
+				"mallow": false,
+				"star_anise": false,
+				"fennel": false,
+				"artichoke": false,
+				"dandelion": false,
+				"buckthorn": false,
+				"lespedeza": false,
+				"griffonia": false
+			}
+		},
+		"photoAnalisys": [
+			"id1",
+			"id2",
+			"idN"
+		]
+	},
+	"diet": {
+		"type": 0,
+		"strength": 0,
+		"intensive_phase_term": 10,
+		"stabilization_phase_term": 10,
+		"last_active_phase": 0,
+		"start_bmi": 26,
+		"end_bmi": 0,
+		"forecast_bmi": 24,
+		"height": 180,
+		"weight": 110,
+		"gender": "M",
+		"age": 21,
+		"dietcomposition": [
+			{
+				"type": 0,
+				"day_number": 1,
+				"meal": 0,
+				"meal_phase": 1,
+				"aliment_json": {
+					"type": "alimento",
+					"category": "bevanda",
+					"description": "the",
+					"state": 0,
+					"pat": 0,
+					"kit": 0,
+					"intensive": true,
+					"stabilization": true,
+					"style_depuration": true,
+					"style_streamlining": true,
+					"breakfast": true,
+					"morning_snack": false,
+					"lunch": true,
+					"afternoon_snack": false,
+					"dinner": true,
+					"size": true,
+					"quantity": null,
+					"taste": 1,
+					"first_dish": null,
+					"second_dish": null,
+					"side_dish": null,
+					"b_hormone_therapy": false,
+					"b_aspartame": false,
+					"b_activators_allergies": false,
+					"b_cocoa": false,
+					"b_nuts_shell": false,
+					"b_gluten": false,
+					"b_lactose_milk": false,
+					"b_yeast": false,
+					"b_peas": false,
+					"b_soy": false,
+					"b_eggs": false,
+					"b_melon": false,
+					"b_tomato": false,
+					"b_betulaceae": false,
+					"b_compositae": false,
+					"b_cupressaceae": false,
+					"b_graminaceae": false,
+					"others": null
+				},
+				"product_json": null
+			},
+			{
+				"type": 0,
+				"day_number": 1,
+				"meal": 0,
+				"meal_phase": 2,
+				"aliment_json": null,
+				"product_json": {
+					"cod_art": "VFPDCF100000",
+					"description": "DOLCIFICANTE  STEVIA  - 100 COMPRESSE",
+					"category": "TISANOREICA VITA",
+					"sub_category": "PROD. FIN. DA ACQUISTI",
+					"group": "ALIMENTI",
+					"country": "ITALIA",
+					"barcode": "8032589954476",
+					"photo_large_name": "photo_large_name",
+					"photo_small_name": "photo_small_name"
+				}
+			},
+			{
+				"type": 0,
+				"day_number": 1,
+				"meal": 0,
+				"meal_phase": 3,
+				"aliment_json": null,
+				"product_json": {
+					"cod_art": "VFPBSC130000",
+					"description": "CIOCOMECH FONDENTE CONF.DA 9 BISCOTTI DA 13 GR.CAD.",
+					"category": "TISANOREICA VITA",
+					"sub_category": "PROD. FIN. DA ACQUISTI",
+					"group": "ALIMENTI",
+					"country": "ITALIA",
+					"barcode": "8032589953868",
+					"photo_large_name": "photo_large_name",
+					"photo_small_name": "photo_small_name"
+				}
+			}
+		]
+	}
+}
