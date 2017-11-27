@@ -1,0 +1,7 @@
+{
+  "users":[
+    {"username": "user20", "skills": 8},
+    {"username": "user21", "skills": 5},
+    {"username": "user22", "skills": 9}
+  ]
+}
